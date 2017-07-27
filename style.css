@@ -1,0 +1,86 @@
+body {
+  font-family: 'Lora', serif;
+  font-weight: lighter;
+  font-size: 18px;
+  line-height: 1.4em;
+  color: rgb(30, 30, 30);
+  margin: 0;
+}
+h1, h2, h3 {
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.banner {
+  background-image: url("http://unsplash.it/1000/500");
+  background-size: cover;
+  padding: 200px 0;
+  color: white;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 40px;
+}
+
+.banner p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+  text-align: center;
+}
+
+h2 {
+  color: #A0A0A0;
+  font-weight: normal;
+}
+
+p {
+  text-align: justify;
+}
+
+a {
+  text-decoration: none
+}
+
+.gradient-green {
+  color: #636363;
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+  /*background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240,1.0));
+  */
+  background-color: rgba(233, 253, 240, 1);
+
+}
+
+.gradient-green:hover {
+  background-color: rgba(125, 255, 179, 1);
+}
+
+
+.container {
+  width: 700px;
+  margin : 0 auto;
+  padding: 25px 0;
+}
+
+@media(min-width: 320px){
+  .container {
+    width: 300px;
+    color : violet;
+  }
+}
+@media(min-width: 768px){
+  .container {
+    width: 500px;
+    color : red;
+
+  }
+}
+@media(min-width: 900px){
+  .container {
+    width: 700px;
+  }
+}
